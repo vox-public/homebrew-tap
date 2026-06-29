@@ -4,22 +4,22 @@ class Vox < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.4"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "170ec79273efdd22c7671422e02e32d4b7c9438f8a0ea92f78ab6fce334d1f99"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "4f7699b47005809cbf717f89036e755373de11b01165b3aad6e1dbfc57b6f1e8"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "968dd0f27b77c1fe78e4f10f9ad6e86bfeba44a220e88a54ad9ba7d949786c47"
-    sha256 cellar: :any_skip_relocation, tahoe:          "e134c7e94ac59f467b79ac92952d2bd74266549842ddf8d29659002a1860c917"
-    sha256 cellar: :any_skip_relocation, sequoia:        "0708f6417b08083db28e81cf6b01af6d39b45e29e2afb55d204c3d1314638411"
-    sha256 cellar: :any_skip_relocation, sonoma:         "44150d4a38bccd36e928419fa96d0a437663104e91921ce9986ab80492d1a6ff"
+    root_url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.5"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "1183a0b5a28b734b8c011f9a2e0e707ccceaed515691381bdb48bd3e095cd4b6"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "91bed4941cf37cae3f53f60c417cc087f684c290da8e21b381751b19fab45b10"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "38cac5ba4bb54d4e304401a006f7b1bc46370e772996e2c875a44ebfdcdcec54"
+    sha256 cellar: :any_skip_relocation, tahoe:          "ca32bac10127ea5862e13c90f919341572682c6c1be2e64535d1a0274c978a2f"
+    sha256 cellar: :any_skip_relocation, sequoia:        "336cf697a1d24fed619be6695c7969afa3a0e16521d5ed9e925de1802895810d"
+    sha256 cellar: :any_skip_relocation, sonoma:         "3a7c3012f40b6a4f8034ef8b7e4af55a3026ff9164a92cddd06a0829cdabbd37"
   end
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.4/vox-v0.1.0-beta.4-darwin-arm64.tar.gz"
-      sha256 "9f9a6a0f1edd3184989a91a8285fcce686d4c962d9484c78d39671e928b274c9"
+      url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.5/vox-v0.1.0-beta.5-darwin-arm64.tar.gz"
+      sha256 "c96df9fcba7ec41493f9f68cb725516eb8ae327266b9905bdb6a170878a4eb5e"
     else
-      url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.4/vox-v0.1.0-beta.4-darwin-x64.tar.gz"
-      sha256 "3c11d6004542c89dbe807b6778b88ae7552e6e1c21c50fefec252b96b515f5be"
+      url "https://github.com/vox-public/homebrew-tap/releases/download/v0.1.0-beta.5/vox-v0.1.0-beta.5-darwin-x64.tar.gz"
+      sha256 "e3c46a5e6f59120e91fd9d8b12560791e27d9225134e73ad439f9cba5536db37"
     end
   end
 
